@@ -11,44 +11,48 @@
         <title>Booki</title>
     </head>
     <body>
-        <nav class="sizeNav">
-            <div class="sizeLiens flexBetween">
-                <div class="titreParaMobile">
-                    <img class="marglogo" 
-                         src="Images/logo.png" 
-                         alt="logo Booki" 
-                         width="120px" 
-                         height="50px"/>
-                </div>
-                    <div class="flexAround">
-                    <div class="flexCentre sizeLiens12">
-                    <div class="sizeLien flexCentre bordureNav sizeLienphone">
-                        <a class="colorBleu decorationNone" href="#hebergements">Hébergements</a>
-                    </div>
-                    <div class="sizeLien flexCentre bordureNav sizeLienphone">
-                        <a class="colorLien2 decorationNone" href="#activites">Activités</a>
-                    </div>
-                    </div>
-                    </div>
+<header>
+    <div class="container">
+    <nav class="sizeNav">
+        <div class="sizeLiens flexBetween">
+            <div class="titreParaMobile">
+                <img class="marglogo" 
+                        src="Images/logo.png" 
+                        alt="logo Booki" 
+                        width="120px" 
+                        height="50px"/>
             </div>
-        </nav>
-        <header>
-            <section>
+                <div class="flexAround">
+                <div class="flexCentre sizeLiens12">
+                <div class="sizeLien flexCentre bordureNav sizeLienphone">
+                    <a class="colorBleu decorationNone" href="#hebergements">Hébergements</a>
+                </div>
+                <div class="sizeLien flexCentre bordureNav sizeLienphone">
+                    <a class="colorLien2 decorationNone" href="#activites">Activités</a>
+                </div>
+                </div>
+                </div>
+        </div>
+    </nav>
+    </div>
+</header>
+    <section id="search">
             <div class="container">
-                    <h1 class="textGras titreParaMobile">Trouvez votre hébergement pour vos vacacances de rêve</h1>
-                    <p class="titreParaMobile">En plein centre ville ou en pleine nature</p>
+                <h1 class="textGras titreParaMobile">Trouvez votre hébergement pour vos vacacances de rêve</h1>
+                <p class="titreParaMobile">En plein centre ville ou en pleine nature</p>
                 <div class="bordureSearch flexCentre">
                     <div class="backGris flexCentre iconSize">
                         <i class="fas fa-map-marker-alt flexCentre"></i>
                     </div>
                     <div>
                         <input class="recherche flexCentre bordureNone paddingSearch"
-                               type="search" 
-                               value="Marseille , France"/>
+                            type="search" 
+                            value="Marseille , France"/>
                     </div>
                     <div class="backBleu flexCentre buttonSearch">
                         <span class="mobileNone">Rechercher</span> 
-                        <span class="desktopNone"><i class="fas fa-search"></i></span></div>
+                        <span class="desktopNone"><i class="fas fa-search"></i></span>
+                    </div>
                 </div>  
                 <div id="filtre">
                     <div><h2>Filtres</h2></div> 
@@ -78,10 +82,10 @@
                     <p>Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
             </div>
-        </section>
-        </header>  
+    </section>  
        <section id="hebergements">
            <div class="container">
+            <div class="heb-pop">
                 <div class="flexColumnAround sizeHebergements backGris blockHebergements">
                     <h3>Hébergements à Marseille</h3>
                     <div class="bloc1 flexBetween">
@@ -214,63 +218,87 @@
                     </div>
                     </div>
                 </div>
+            </div>
            </div>
        </section>
-       <section id="activites">
-           <h2 class="titreParaMobile">Activités à Marseille</h2>
-            <div class="blocActivites flexBetween">
-                <div class="cubeActivites flexColumnCentre">
-                    <div class="imgActivites1"></div>
-                    <div class="hauteurTitre titreActivites"><h3>Vieux port</h3></div>
+        <section id="activites">
+            <div class="container">
+           <h2>Activités à Marseille</h2>
+            <div class="blocActivites">
+                <div class="cubeActivites ">
+                    <a href="activites"></a>
+                <div class="imgActivites1">
+                    <img src="Images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Image activite">
                 </div>
-            <div class="blocActivites2356 flexColumnBetween">
-                <div class="cubeActivites2356 flexColumnCentre">
-                    <div class="imgActivites2"></div>
-                    <div class="hauteurTitre titreActivites"><h3>Fort de Pomégues</h3></div>
+                <div class="activites-infos"><h3>Vieux port</h3></div>
+                    </a>
                 </div>
-            
-                <div class="cubeActivites2356 flexColumnCentre">
-                    <div class="imgActivites3"></div>
-                    <div class="hauteurTitre titreActivites"><h3>Îles du Frioules</h3></div>
+                <div class="cubeActivites">
+                    <a href="activites">
+                <div class="imgActivites2">
+                    <img src="Images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Image activite">
                 </div>
-            </div>
-                <div class="cubeActivites flexColumnCentre">
-                    <div class="imgActivites4"></div>
-                    <div class="hauteurTitre titreActivites"><h3>Parc national des Calanques</h3></div>
+                <div class="activites-infos"><h3>Fort de Pomégues</h3></div>
+                    </a>
                 </div>
-                <div class="blocActivites2356 flexColumnBetween">
-                    <div class="cubeActivites2356 flexColumnCentre">
-                    <div class="imgActivites5"></div>
-                    <div class="hauteurTitre titreActivites"><h3>Notre-dame-de-la-Garde</h3></div>
+                <div class="cubeActivites">
+                    <a href="activites">
+                <div class="imgActivites3">
+                    <img src="Images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Image activite">
                 </div>
-                    <div class="cubeActivites2356 flexColumnCentre">
-                    <div class="imgActivites6"></div>
-                    <div class="hauteurTitre titreActivites"><h3>Parc Longchamp</h3></div>
+                <div class="activites-infos"><h3>Îles du Frioules</h3></div>
+                    </a>
+                </div>
+                <div class="cubeActivites">
+                    <a href="activites">
+                <div class="imgActivites4">
+                    <img src="Images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Image activite">
+                </div>
+                <div class="activites-infos"><h3>Parc national des Calanques</h3></div>
+                    </a>
+                </div>
+                <div class="cubeActivites">
+                    <a href="activites">
+                <div class="imgActivites5">
+                    <img src="Images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Image activite">
+                </div>
+                <div class="activites-infos"><h3>Notre-dame-de-la-Garde</h3></div>
+                    </a>
+                </div>
+                <div class="cubeActivites">
+                    <a href="activites">
+                <div class="imgActivites6">
+                    <img src="Images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Image activite">
+                </div>
+                <div class="activites-infos"><h3>Parc Longchamp</h3></div>
+                    </a>
                 </div>
             </div>
             </div>
         </section>
-    <footer>
-        <div class="footer backGris flexBetween">
-            <div class="margBlockFooter1 tailleBlockFooter">
-                <h3>A propos</h3>
-                <div class="divLienFoot"><a href="#" class="decorationNone lienFoot">Fonctionnement du site</a></div>
-                <div class="divLienFoot"><a href="#" class="decorationNone lienFoot">Conditions générales de vente</a></div>
-                <div class="divLienFoot"><a href="#" class="decorationNone lienFoot">Données et Confidentialité</a></div>
-                
-                
-            </div>
-                <div class="margBlockFooter2 tailleBlockFooter">
-                <h3>Nos hébergements</h3>
-                <div class="divLienFoot"><a href="#" class="decorationNone lienFoot">Charte qualité</a></div>
-                <div class="divLienFoot"><a href="#" class="decorationNone lienFoot">Soumettre votre hôtel</a></div>
-                
-                
+    <footer class="footer">
+        <div class="container">
+            <div class="footer backGris flexBetween">
+                <div class="margBlockFooter1 tailleBlockFooter">
+                    <h3>A propos</h3>
+                    <div class="divLienFoot"><a href="#footer" class="decorationNone lienFoot">Fonctionnement du site</a></div>
+                    <div class="divLienFoot"><a href="#footer" class="decorationNone lienFoot">Conditions générales de vente</a></div>
+                    <div class="divLienFoot"><a href="#footer" class="decorationNone lienFoot">Données et Confidentialité</a></div>
+                    
+                    
                 </div>
-                <div class="margBlockFooter3 tailleBlockFooter">
-                <h3>A propos</h3>
-                <div class="divLienFoot"><a href="#" class="decorationNone lienFoot">Centre d'aide</a></div>
-                <div class="divLienFoot"><a href="#" class="decorationNone lienFoot">Nous contacter</a></div>
+                    <div class="margBlockFooter2 tailleBlockFooter">
+                    <h3>Nos hébergements</h3>
+                    <div class="divLienFoot"><a href="#footer" class="decorationNone lienFoot">Charte qualité</a></div>
+                    <div class="divLienFoot"><a href="#footer" class="decorationNone lienFoot">Soumettre votre hôtel</a></div>
+                    
+                    
+                    </div>
+                    <div class="margBlockFooter3 tailleBlockFooter">
+                    <h3>A propos</h3>
+                    <div class="divLienFoot"><a href="#footer" class="decorationNone lienFoot">Centre d'aide</a></div>
+                    <div class="divLienFoot"><a href="#footer" class="decorationNone lienFoot">Nous contacter</a></div>
+                </div>
             </div>
         </div>
     </footer>
